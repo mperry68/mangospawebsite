@@ -32,16 +32,11 @@ export default function Home() {
             <div className="flex items-center space-x-3">
               <Image
                 src="/images/MangoSTx250.png"
-                alt="Mango Spray Tan Logo"
+                alt="Logo"
                 width={60}
                 height={60}
                 className="object-contain"
               />
-              <span className={`text-2xl font-bold transition-colors ${
-                isScrolled ? 'text-red-600' : 'text-white'
-              }`} style={{ fontFamily: 'Bungasai, serif' }}>
-                Mango Spray Tan
-              </span>
             </div>
             <div className="hidden md:flex items-center space-x-8">
               <button
@@ -89,8 +84,8 @@ export default function Home() {
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/MangoBoat.jpg"
-            alt="Mango Spray Tan"
+            src="/images/AD7x550.jpg"
+            alt="Hero"
             fill
             className="object-cover"
             priority
@@ -102,6 +97,9 @@ export default function Home() {
           <h1 className="text-5xl md:text-7xl lg:text-8xl mb-6" style={{ fontFamily: 'Bungasai, serif' }}>
             Beauty by the Sun
           </h1>
+          <p className="text-xl md:text-2xl mb-4 text-gray-200 font-semibold">
+            For when the beach is out of Reach
+          </p>
           <p className="text-xl md:text-2xl mb-8 text-gray-200">
             Experience the Ultimate in Spray Tanning Comfort
           </p>
@@ -137,10 +135,10 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-4xl md:text-5xl mb-6 text-red-600" style={{ fontFamily: 'Bungasai, serif' }}>
-                About Mango Spray Tan
+                About Us
               </h2>
               <p className="text-lg text-gray-700 mb-4">
-                At Mango Spray Tan, we believe that achieving a beautiful, natural-looking tan should be a luxurious and comfortable experience. We specialize in premium spray tanning services using the latest heated spray tan technology.
+                We believe that achieving a beautiful, natural-looking tan should be a luxurious and comfortable experience. We specialize in premium spray tanning services using the latest heated spray tan technology.
               </p>
               <p className="text-lg text-gray-700 mb-4">
                 Our state-of-the-art heated spray tan machines provide an unparalleled level of comfort, ensuring that your tanning session is not only effective but also relaxing and enjoyable.
@@ -256,7 +254,7 @@ export default function Home() {
               '/images/IMG_0630.jpg',
               '/images/AD7x550.jpg',
               '/images/PoolSidex550.jpg',
-              '/images/BeachReachx800.png',
+              '/images/AD4.jpg',
             ].map((src, index) => (
               <div key={index} className="relative h-64 md:h-80 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow group">
                 <Image
@@ -278,6 +276,9 @@ export default function Home() {
             <h2 className="text-4xl md:text-5xl mb-4" style={{ fontFamily: 'Bungasai, serif' }}>
               Book Your Appointment Today
             </h2>
+            <p className="text-2xl md:text-3xl mb-4 text-red-400 font-semibold">
+              For when the beach is out of Reach
+            </p>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
               Ready to experience the ultimate in spray tanning comfort? Contact us to schedule your appointment or learn more about our services.
             </p>
@@ -341,14 +342,11 @@ export default function Home() {
           <div className="flex items-center justify-center space-x-3 mb-4">
             <Image
               src="/images/MangoSTx250.png"
-              alt="Mango Spray Tan Logo"
+              alt="Logo"
               width={40}
               height={40}
               className="object-contain"
             />
-            <span className="text-xl font-bold text-white" style={{ fontFamily: 'Bungasai, serif' }}>
-              Mango Spray Tan
-            </span>
           </div>
           <div className="space-y-2">
             <p className="text-sm">
@@ -360,7 +358,7 @@ export default function Home() {
               </a>
             </p>
             <p className="text-sm mt-4">
-              © 2023 Mango Spray Tan. All rights reserved.
+              © 2023. All rights reserved.
             </p>
           </div>
         </div>
