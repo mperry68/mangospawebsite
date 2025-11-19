@@ -38,7 +38,7 @@ export default function Home() {
                 className="object-contain"
               />
               <span className={`text-2xl font-bold transition-colors ${
-                isScrolled ? 'text-orange-600' : 'text-white'
+                isScrolled ? 'text-red-600' : 'text-white'
               }`} style={{ fontFamily: 'Bungasai, serif' }}>
                 Mango Spray Tan
               </span>
@@ -46,7 +46,7 @@ export default function Home() {
             <div className="hidden md:flex items-center space-x-8">
               <button
                 onClick={() => scrollToSection('about')}
-                className={`transition-colors hover:text-orange-500 ${
+                className={`transition-colors hover:text-red-500 ${
                   isScrolled ? 'text-gray-700' : 'text-white'
                 }`}
               >
@@ -54,7 +54,7 @@ export default function Home() {
               </button>
               <button
                 onClick={() => scrollToSection('technology')}
-                className={`transition-colors hover:text-orange-500 ${
+                className={`transition-colors hover:text-red-500 ${
                   isScrolled ? 'text-gray-700' : 'text-white'
                 }`}
               >
@@ -62,7 +62,7 @@ export default function Home() {
               </button>
               <button
                 onClick={() => scrollToSection('gallery')}
-                className={`transition-colors hover:text-orange-500 ${
+                className={`transition-colors hover:text-red-500 ${
                   isScrolled ? 'text-gray-700' : 'text-white'
                 }`}
               >
@@ -70,14 +70,14 @@ export default function Home() {
               </button>
               <button
                 onClick={() => scrollToSection('contact')}
-                className="bg-orange-500 text-white px-6 py-2 rounded-full hover:bg-orange-600 transition-colors font-semibold"
+                className="bg-red-500 text-white px-6 py-2 rounded-full hover:bg-red-600 transition-colors font-semibold"
               >
                 Book Now
               </button>
             </div>
             <button
               onClick={() => scrollToSection('contact')}
-              className="md:hidden bg-orange-500 text-white px-4 py-2 rounded-full text-sm font-semibold"
+              className="md:hidden bg-red-500 text-white px-4 py-2 rounded-full text-sm font-semibold"
             >
               Book
             </button>
@@ -111,7 +111,7 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button
               onClick={() => scrollToSection('contact')}
-              className="bg-orange-500 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-orange-600 transition-all transform hover:scale-105 shadow-lg"
+              className="bg-red-500 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-red-600 transition-all transform hover:scale-105 shadow-lg"
             >
               Book Your Appointment Today
             </button>
@@ -132,11 +132,11 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section id="about" className="py-20 bg-gradient-to-b from-white to-orange-50">
+      <section id="about" className="py-20 bg-gradient-to-b from-white to-red-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-4xl md:text-5xl mb-6 text-orange-600" style={{ fontFamily: 'Bungasai, serif' }}>
+              <h2 className="text-4xl md:text-5xl mb-6 text-red-600" style={{ fontFamily: 'Bungasai, serif' }}>
                 About Mango Spray Tan
               </h2>
               <p className="text-lg text-gray-700 mb-4">
@@ -150,7 +150,7 @@ export default function Home() {
               </p>
               <button
                 onClick={() => scrollToSection('contact')}
-                className="bg-orange-500 text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-orange-600 transition-all inline-block"
+                className="bg-red-500 text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-red-600 transition-all inline-block"
               >
                 Contact Us for More Information
               </button>
@@ -171,7 +171,7 @@ export default function Home() {
       <section id="technology" className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl mb-4 text-orange-600" style={{ fontFamily: 'Bungasai, serif' }}>
+            <h2 className="text-4xl md:text-5xl mb-4 text-red-600" style={{ fontFamily: 'Bungasai, serif' }}>
               Latest Technology
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -197,39 +197,39 @@ export default function Home() {
               </p>
               <ul className="space-y-3 text-lg text-gray-700 mb-6">
                 <li className="flex items-start">
-                  <span className="text-orange-500 mr-3 text-xl">✓</span>
+                  <span className="text-red-500 mr-3 text-xl">✓</span>
                   <span>Warm, comfortable mist for maximum relaxation</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-orange-500 mr-3 text-xl">✓</span>
+                  <span className="text-red-500 mr-3 text-xl">✓</span>
                   <span>Even, streak-free application every time</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-orange-500 mr-3 text-xl">✓</span>
+                  <span className="text-red-500 mr-3 text-xl">✓</span>
                   <span>Faster drying time for your convenience</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-orange-500 mr-3 text-xl">✓</span>
+                  <span className="text-red-500 mr-3 text-xl">✓</span>
                   <span>Premium tanning solutions for natural-looking results</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-orange-500 mr-3 text-xl">✓</span>
+                  <span className="text-red-500 mr-3 text-xl">✓</span>
                   <span>State-of-the-art equipment for the best experience</span>
                 </li>
               </ul>
             </div>
           </div>
 
-          <div className="bg-gradient-to-r from-orange-500 to-orange-600 rounded-2xl p-8 md:p-12 text-white text-center">
+          <div className="bg-gradient-to-r from-red-500 to-red-600 rounded-2xl p-8 md:p-12 text-white text-center">
             <h3 className="text-3xl md:text-4xl mb-4" style={{ fontFamily: 'Bungasai, serif' }}>
               Ready to Experience the Difference?
             </h3>
-            <p className="text-xl mb-6 text-orange-50">
+            <p className="text-xl mb-6 text-red-50">
               Book your appointment today and discover why our heated spray tan technology is the preferred choice for a perfect, comfortable tan.
             </p>
             <button
               onClick={() => scrollToSection('contact')}
-              className="bg-white text-orange-600 px-8 py-4 rounded-full text-lg font-semibold hover:bg-orange-50 transition-all transform hover:scale-105 shadow-lg"
+              className="bg-white text-red-600 px-8 py-4 rounded-full text-lg font-semibold hover:bg-red-50 transition-all transform hover:scale-105 shadow-lg"
             >
               Book Your Appointment Today
             </button>
@@ -238,10 +238,10 @@ export default function Home() {
       </section>
 
       {/* Gallery Section */}
-      <section id="gallery" className="py-20 bg-gradient-to-b from-orange-50 to-white">
+      <section id="gallery" className="py-20 bg-gradient-to-b from-red-50 to-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl mb-4 text-orange-600" style={{ fontFamily: 'Bungasai, serif' }}>
+            <h2 className="text-4xl md:text-5xl mb-4 text-red-600" style={{ fontFamily: 'Bungasai, serif' }}>
               Gallery
             </h2>
             <p className="text-xl text-gray-600">
@@ -297,7 +297,7 @@ export default function Home() {
                 
                 <div className="space-y-4">
                   <div className="flex items-start justify-center space-x-3 text-lg">
-                    <svg className="w-6 h-6 text-orange-500 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-6 h-6 text-red-500 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                     </svg>
@@ -305,19 +305,19 @@ export default function Home() {
                       href="https://maps.google.com/?q=110-186+Sutton+Place+Beaconsfield+QC+H9W+5S3" 
                       target="_blank" 
                       rel="noopener noreferrer"
-                      className="text-gray-300 hover:text-orange-400 transition-colors text-center"
+                      className="text-gray-300 hover:text-red-400 transition-colors text-center"
                     >
                       110-186 Sutton Place<br />
                       Beaconsfield, QC H9W 5S3
                     </a>
                   </div>
                   <div className="flex items-center justify-center space-x-3 text-lg">
-                    <svg className="w-6 h-6 text-orange-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-6 h-6 text-red-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                     </svg>
                     <a 
                       href="mailto:appointments@mangospra.com" 
-                      className="text-gray-300 hover:text-orange-400 transition-colors"
+                      className="text-gray-300 hover:text-red-400 transition-colors"
                     >
                       appointments@mangospra.com
                     </a>
@@ -325,7 +325,7 @@ export default function Home() {
                 </div>
 
                 <div className="pt-6">
-                  <p className="text-lg text-orange-400 font-semibold mb-4">
+                  <p className="text-lg text-red-400 font-semibold mb-4">
                     We look forward to helping you achieve your perfect tan!
                   </p>
                 </div>
@@ -355,12 +355,12 @@ export default function Home() {
               110-186 Sutton Place, Beaconsfield, QC H9W 5S3
             </p>
             <p className="text-sm">
-              <a href="mailto:appointments@mangospra.com" className="hover:text-orange-400 transition-colors">
+              <a href="mailto:appointments@mangospra.com" className="hover:text-red-400 transition-colors">
                 appointments@mangospra.com
               </a>
             </p>
             <p className="text-sm mt-4">
-              © {new Date().getFullYear()} Mango Spray Tan. All rights reserved.
+              © 2023 Mango Spray Tan. All rights reserved.
             </p>
           </div>
         </div>
